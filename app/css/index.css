@@ -1,0 +1,38 @@
+@font-face {
+     font-family: Roboto;
+     src: url(../fonts/Roboto/Roboto-Light.ttf) format('truetype');;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+   height: 100%;
+   width: 100%;
+   font-family: 'Roboto', sans-serif;
+   background: url(../img/texture.png) top left repeat;
+}
+.titulo{
+    color: #5271FF;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    top: 20px;
+}
+
+.radios{
+  width: 350px;
+  margin: 0 auto;
+  height: 100px;
+  margin-top: 70px;
+  text-align: center;
+
+}
+
+.radiosOpcao{
+
+text-align: center;
+}
